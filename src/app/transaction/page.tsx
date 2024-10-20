@@ -1,14 +1,14 @@
 import { TonConnectProvider } from '@/components/TonConnectProvider'
 import dynamic from 'next/dynamic'
 
-const WalletScreen = dynamic(() => import('@/components/WalletScreen'), {
+const TransactionScreen = dynamic(() => import('@/components/TransactionScreen'), {
     ssr: false,
 })
 
-export default function Home() {
+export default function TransactionPage() {
     return (
         <TonConnectProvider>
-            <WalletScreen />
+            <TransactionScreen />
         </TonConnectProvider>
     )
 }

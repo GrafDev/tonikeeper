@@ -1,6 +1,6 @@
-# TON Wallet App
+# TONiKeeper
 
-Это веб-приложение для привязки крипто кошелька TonKeeper и выполнения переводов в TestNet сети TON.
+Это веб-приложение для привязки крипто кошелька TonKeeper и выполнения переводов в TestNet сети TON. 
 
 ## Требования
 
@@ -11,8 +11,8 @@
 
 1. Клонируйте репозиторий:
    ```
-   git clone https://github.com/your-username/ton-wallet-app.git
-   cd ton-wallet-app
+   git clone https://github.com/GrafDev/tonikeeper.git
+   cd tonikeeper
    ```
 
 2. Соберите и запустите контейнер:
